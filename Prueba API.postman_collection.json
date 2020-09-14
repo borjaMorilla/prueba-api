@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "f7c814f2-50b9-4fd9-8865-151b41317348",
+		"name": "Prueba API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Player",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Antonio\",\r\n    \"last_name\": \"Puertas\",\r\n    \"price\": 1000000,\r\n    \"team\": {\r\n        \"id\" : 13\r\n    },\r\n    \"positions\":[\r\n        {\"id\": 4}\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/player",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"player"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "prueba",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Create Player"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Player",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/player/33",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"player",
+						"33"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get players by team o position",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/position/4/players?priceUSD=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"position",
+						"4",
+						"players"
+					],
+					"query": [
+						{
+							"key": "priceUSD",
+							"value": "1"
+						}
+					]
+				},
+				"description": "Para filtrar por posicion:\r\nhttp://127.0.0.1:8000/position/4/players?priceUSD=1\r\n\r\nPara filtrar por equipo:\r\nhttp://127.0.0.1:8000/team/12/players?priceUSD=1\r\n\r\nAñadimos ?priceUSD=1 para obtener el precio en USD"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Player",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"SERGIO\",\r\n    \"team\" : { \"id\": 12 },\r\n    \"positions\" : [ \r\n        { \"id\": 2 }\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/player/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"player",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
