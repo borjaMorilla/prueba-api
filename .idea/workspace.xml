@@ -10,23 +10,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7534fad6-d842-4f3e-ac57-890758f05511" name="Default Changelist" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/src/Controller/PlayerController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/PositionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/TeamController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serializer/EntityNormalizer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/ExchangeRatesApi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Validator/Constraint/Position.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Validator/Constraint/PositionValidator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Player.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Player.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Position.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Position.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Team.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Team.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/PlayerRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/PlayerRepository.php" afterDir="false" />
-    </list>
+    <list default="true" id="7534fad6-d842-4f3e-ac57-890758f05511" name="Default Changelist" comment="First commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +157,7 @@
       <workItem from="1599772862246" duration="1193000" />
       <workItem from="1599896746880" duration="4284000" />
       <workItem from="1599901096506" duration="308000" />
-      <workItem from="1599901426793" duration="59253000" />
+      <workItem from="1599901426793" duration="59555000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1599901551223</created>
